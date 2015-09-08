@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="author" content="Katrina Engelsted">
+    <meta name="author" content="Katrina Engelsted, Mamata Akella">
     <meta name="description" content="An introduction to web mapping for Denver Start up Week">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
@@ -24,13 +24,13 @@
     <!--[if lt IE 9]>
     <script src="lib/js/html5shiv.js"></script>
     <![endif]-->
-    <title>Mappy Hour: An intro to open source mapping libraries</title>
+    <title>Mappy Hour: A dive into mapping tools & libraries</title>
   </head>
   <body>
     <div class="reveal">
       <div class="slides">
         <section>
-          <h2>Mappy Hour: Exploring Open Source Mapping Tools</h2>
+          <h2>Mappy Hour: A dive into mapping tools & libraries</h2>
           <h3>
             <span class="highlight">Denver Startup Week 2015</span>
           </h3>
@@ -41,7 +41,7 @@
           <ul>
             <li>Introductions</li>
             <li>Overview of Web Maps</li>
-            <li>Open Source Tools</li>
+            <li>Mapping Tools & Libaries</li>
             <li>Creating a map</li>
             <li>Questions?</li>
           </ul>
@@ -258,30 +258,10 @@
           <!-- Done with JavaScript -->
           <!--Screenshot showing what map functionality is and (zoom/pan, popups, querying, etc.) -->
         </section>
-        <!-- *** Overview of OpenSource Tools **** -->
+        <!-- *** Katrina: Overview of OpenSource Tools **** -->
         <section>
           <section>
-            <h1 span class="highlight">Open Source Tools</h1>
-          </section>
-          <section>
-            <h2>What is open source?</h2>
-            <p>"Open source... promotes... universal access via a free license to a product's design or blueprint, and universal redistribution of that design or blueprint, including subsequent improvements to it by anyone." - <a href="http://en.wikipedia.org/wiki/Open_source">Wikipedia</a></p>
-          </section>
-          <section>
-            <h2>Why open source?</h2>
-          </section>
-          <section>
-            <ul>
-              <li>Build on the work of others</li>
-              <li>Contribute back to the community</li>
-              <li>Increase collaboration with your constituency</li>
-              <li>Increase transparency</li>
-              <li>Build better products (more eyes on your code)</li>
-              <li><a href="http://www.whitehouse.gov/sites/default/files/omb/memoranda/2013/m-13-13.pdf" target="_blank">President Obama's Open Data Policy</a></li>
-            </ul>
-          </section>
-          <section>
-            <h2>Why not?</h2>
+            <h1 span class="highlight">Map Tools</h1>
           </section>
           <section tagcloud="" class="present tagcloud" style="display: block;">
             <span class="clouditem" style="font-size: 156.10265141818672%; color: rgb(150, 76, 179);">    Leaflet</span> <span class="clouditem" style="font-size: 183.60962371807545%; color: rgb(179, 93, 76);">    CartoDB</span> <span class="clouditem" style="font-size: 163.66907241288573%; color: rgb(76, 97, 179);">    Mapbox</span> <span class="clouditem" style="font-size: 198.66739843040705%; color: rgb(76, 145, 179);">    GitHub</span> <span class="clouditem" style="font-size: 198.30495120491832%; color: rgb(179, 90, 76);">    KML</span> <span class="clouditem" style="font-size: 193.73538852203637%; color: rgb(143, 76, 179);">    GeoJSON</span> <span class="clouditem" style="font-size: 149.88388252444565%; color: rgb(107, 179, 76);">    CSV</span> <span class="clouditem" style="font-size: 186.96960015688092%; color: rgb(76, 179, 167);">    WMS</span> <span class="clouditem" style="font-size: 195.18062303308398%; color: rgb(76, 179, 160);">    Tiled</span> </span> <span class="clouditem" style="font-size: 155.7243404071778%; color: rgb(76, 179, 134);">    OpenStreetMap</span> <span class="clouditem" style="font-size: 176.9069387484342%; color: rgb(179, 76, 114);">    Vector Tiles</span> <span class="clouditem" style="font-size: 165.42575665283948%; color: rgb(163, 76, 179);">    UTFGrid</span> <span class="clouditem" style="font-size: 148.2439872669056%; color: rgb(76, 179, 78);">    JavaScript</span> <span class="clouditem" style="font-size: 184.3598467297852%; color: rgb(76, 179, 117);">    HTML</span> <span class="clouditem" style="font-size: 157.32739641796798%; color: rgb(138, 76, 179);">    CSS</span> <span class="clouditem" style="font-size: 177.55439032334834%; color: rgb(165, 76, 179);">    Node.js</span> <span class="clouditem" style="font-size: 149.08941294066608%; color: rgb(157, 179, 76);">    Grunt</span> <span class="clouditem" style="font-size: 167.53705204464495%; color: rgb(76, 134, 179);">    MapQuest</span></span> <span class="clouditem" style="font-size: 193.0041212681681%; color: rgb(126, 179, 76);">    ExtJS</span> <span class="clouditem" style="font-size: 161.27999428194016%; color: rgb(174, 179, 76);">    PostgreSQL</span> <span class="clouditem" style="font-size: 187.0986875705421%; color: rgb(76, 102, 179);">    PostGIS</span> <span class="clouditem" style="font-size: 142.29869320522994%; color: rgb(76, 179, 157);">    SQL Server</span> <span class="clouditem" style="font-size: 164.81037794146687%; color: rgb(127, 76, 179);"></span> <span class="clouditem" style="font-size: 161.09244556631893%; color: rgb(76, 179, 109);">    Bootstrap</span> <span class="clouditem" style="font-size: 146.32043632213026%; color: rgb(175, 76, 179);">    TileMill</span> <span class="clouditem" style="font-size: 158.61324864905328%; color: rgb(76, 179, 131);">    QGIS</span> <span class="clouditem" style="font-size: 173.15360988955945%; color: rgb(179, 76, 139);">    Maki</span> <span class="clouditem" style="font-size: 196.9772030506283%; color: rgb(179, 76, 85);">    Heroku</span> <span class="clouditem" style="font-size: 190.83041932433844%; color: rgb(76, 179, 121);">    EC2</span> <span class="clouditem" style="font-size: 193.002316839993%; color: rgb(179, 97, 76);">    S3</span> <span class="clouditem" style="font-size: 152.51278991345316%; color: rgb(179, 76, 163);">    Zoomify</span> <span class="clouditem" style="font-size: 140.31181874219328%; color: rgb(179, 76, 124);">    jQuery</span> <span class="clouditem" style="font-size: 172.5516069913283%; color: rgb(179, 170, 76);">    Jasmine</span> <span class="clouditem" style="font-size: 161.32711669895798%; color: rgb(76, 179, 155);">    GDAL</span>
@@ -1045,8 +1025,6 @@
 </pre>
       </section>
         </section>
-        <!-- LUNCH TIME -->
-        <!-- *** Planning a Web Map **** -->
         <section>
           <section>
             <h1 class="highlight">Planning a Web Map</h1>
@@ -1080,29 +1058,7 @@
               <li>Eliminate complex technologies</li>
             </ul>
           </section>
-          <!--
-          <section>
-            <h2 span class="highlight">Demo (good maps vs. bad maps)</h2>
-          </section>
-          -->
         </section>
-        <!-- *** Blue Ridge Road Closures **** -->
-        <!--
-        <section data-background="img/blue-ridge.jpg" data-background-size="800px 600px">
-          <h2 style="background-color:black;color:white;margin-top:300px;padding:15px;">Example: Blue Ridge Parkway Road Closures</h2>
-        </section>
-        <section>
-          <h2>No database, hardcopy forms and phone calls</h2>
-        </section>
-        <section>
-          <h2>Single point of failure</h2>
-        </section>
-        <section>
-          <h2>Manual update of visitor-facing information</h2>
-        </section>
-        <section>
-        </section>
-      -->
         <section>
           <h1>Thank you!</h1>
         </section>
