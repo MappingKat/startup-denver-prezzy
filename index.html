@@ -37,6 +37,12 @@
           [image of end map]
         </section>
         <section>
+          Your presenters
+          [image][image]
+          <h2>@katrography                  @mamataakella</h2>
+          <h2>http://www.fulcrumapp.com/      https://cartodb.com/</h2>
+        </section>
+        <section>
           <h2>Today's Agenda:</h2>
           <ul>
             <li>Introductions</li>
@@ -266,6 +272,21 @@
           </section>
           <!-- Fulcrum (Katrina) -->
           <section>
+            <h2>Data Collection</h2>
+            <h2>@fulcrumapp</h2>
+            <h2>https//fulcrumapp.com</h2>
+            <img alt="Picture of Fulcrum Team" src="img/team.png">
+          </section>
+          <section>
+            <h2>Collecting Data</h2>
+            <h2>* Webhooks</h2>
+            <h2>* Lookup Tables</h2>
+            <h2>* Complicated Relationships</h2>
+            <h2>* Integration</h2>
+            <h2>https//fulcrumapp.com</h2>
+          </section>
+          <section>
+            <h2>Data Collection</h2>
             <h2>@fulcrumapp</h2>
             <h2>https//fulcrumapp.com</h2>
             <img alt="Picture of Fulcrum Team" src="img/team.png">
@@ -340,9 +361,6 @@
             <p>Use tags as <code>key = value</code> to define map features</p>
             <img src="img/osm-tags.jpg">
           </section>
-          <section data-background="img/openstreetmap2.jpg" data-background-size="900px 600px">
-            <h2 style="background-color:black;color:white;margin-top:300px;padding:15px;">OpenStreetMap Demo</h2>
-          </section>
           <!-- QGIS (Mamata and Katrina) -->
           <section>
             <h2 class="highlight">Quantum GIS (QGIS)</h2>
@@ -378,9 +396,6 @@
           </section>
           <section>
             <img src="img/qgis/inasafe.jpg">
-          </section>
-          <section data-background="img/qgis/demo.jpg" data-background-size="900px 600px">
-            <h2 style="background-color:black;color:white;margin-top:300px;padding:15px;">QGIS Demo</h2>
           </section>
           <!-- CartoDB -->
           <section>
@@ -502,18 +517,6 @@
               <li>An online mapping interface for basic map customization and data creation</li>
             </ul>
           </section>
-          <!-- Insert image of Mapbox Online interface -->
-          <section>
-            <h2 style="background-color:black;color:white;margin-top:300px;padding:15px;">TileMill</h2>
-          </section>
-          <section>
-            <h2>TileMill</h2>
-            <ul>
-              <li>An open source tool used to design maps for the web</li>
-              <li>Uses Mapnik for rendering and CartoCSS for styling</li>
-            </ul>
-          </section>
-          <!-- Insert image of TileMill interface -->
           <section>
             <h2 style="background-color:black;color:white;margin-top:300px;padding:15px;">Mapbox Studio</h2>
           </section>
@@ -523,9 +526,6 @@
               <li>An open source tool used to design maps for the web using vector tiles</li>
               <li>Uses Mapnik for rendering and CartoCSS for styling</li>
             </ul>
-          </section>
-          <section>
-            <h2>Other tools</h2>
           </section>
           <section>
             <h2>Mapbox.js</h2>
@@ -547,15 +547,6 @@
             </ul>
           </section>
           <section>
-            <h2>Mapbox Demo</h2>
-          </section>
-          <section>
-            <h2 class="highlight">Tool Review</h2>
-            <!-- review concepts from tools -->
-          </section>
-          <!-- Leaflet -->
-          <!-- Transition to Javascript libraries... -->
-          <section>
             <h2 class="highlight">Leaflet</h2>
             <h3>A modern open-source JavaScript library for mobile-friendly interactive maps.</h3>
           </section>
@@ -566,6 +557,10 @@
               <li>Works seamlessly across all major desktop and mobile platforms</li>
               <li>Designed with performance and usability in mind</li>
             </ul>
+          </section>
+          <section>
+            The most powerful thing about Leaflet:
+              Its plugins:<a href="http://leafletjs.com/plugins.html">Plugins</a>
           </section>
           <section>
             <h2>History</h2>
@@ -579,388 +574,613 @@
             <h2>Users</h2>
             <ul>
               <li>NPMap.js</li>
-              <li>Data.gov</li>
+              <li>data.gov</li>
               <li>OpenStreetMap</li>
               <li>Many online map tools&hellip;</li>
             </ul>
           </section>
           <section>
-            <h2>Leaflet Demo</h2>
+            <h2>Create a basic Leaflet map</h2>
+            <h3>Create a basic HTML Container</h3>
+            <!-- HTML generated using hilite.me -->
+            <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+              <pre style="margin: 0; line-height: 125%"><span style="color: #75715e">&lt;!DOCTYPE html&gt;</span>
+                <span style="color: #f92672">&lt;html&gt;</span>
+                <span style="color: #f92672">&lt;head&gt;</span>
+                <span style="color: #f92672">&lt;title&gt;</span>
+                  Leaflet Demo
+                <span style="color: #f92672">&lt;/title&gt;</span>
+                <span style="color: #f92672">&lt;/head&gt;</span>
+                <span style="color: #f92672">&lt;body&gt;</span>
+                <span style="color: #f92672">&lt;/body&gt;</span>
+                <span style="color: #f92672">&lt;/html&gt;</span>
+              </pre>
+            </div>
           </section>
-      <section>
-        <h2>Create a basic Leaflet map</h2>
-        <h3>Create a basic HTML Container</h3>
-        <!-- HTML generated using hilite.me -->
-        <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
-          <pre style="margin: 0; line-height: 125%"><span style="color: #75715e">&lt;!DOCTYPE html&gt;</span>
-            <span style="color: #f92672">&lt;html&gt;</span>
+          <section>
+            <h2>Create a basic Leaflet map</h2>
+            <h3>Include the Leaflet library CSS</h3>
+            <!-- HTML generated using hilite.me -->
+            <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">  <span style="color: #f92672">&lt;head&gt;</span>
+            <span style="color: #f92672">&lt;title&gt;</span>
+            Leaflet Demo
+            <span style="color: #f92672">&lt;/title&gt;</span>
+            <span style="color: #f92672">&lt;link</span> <span style="color: #a6e22e">rel=</span>
+            <span style="color: #e6db74">&quot;stylesheet&quot;</span> 
+            <span style="color: #a6e22e">href=</span><span style="color: #e6db74">&quot;//cdn.leafletjs.com/leaflet-0.7.3/leaflet.css&quot;</span>
+            <span style="color: #f92672">/&gt;</span>
+            <span style="color: #f92672">&lt;/head&gt;</span>
+            </pre>
+          </div>
+          </section>
+          <section>
+            <h2>Create a basic Leaflet map</h2>
+            <h3>Include the Leaflet library JavaScript</h3>
+            <!-- HTML generated using hilite.me -->
+            <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">  <span style="color: #f92672">&lt;body&gt;</span>
+            <span style="color: #f92672">&lt;script</span> <span style="color: #a6e22e">src=</span><span style="color: #e6db74">&quot;//cdn.leafletjs.com/leaflet-0.7.3/leaflet.js&quot;</span><span style="color: #f92672">&gt;&lt;/script&gt;</span>
+            <span style="color: #f92672">&lt;/body&gt;</span>
+            </pre>
+            </div>
+          </section>
+          <section>
+            <h2>Create a basic Leaflet map</h2>
+            <h3>Create a &quot;div&quot; for the map</h3>
+            <!-- HTML generated using hilite.me -->
+            <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">  <span style="color: #f92672">&lt;body&gt;</span>
+            <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">id=</span><span style="color: #e6db74">&quot;map&quot;</span><span style="color: #f92672">&gt;&lt;/div&gt;</span>
+            <span style="color: #f92672">&lt;script</span> <span style="color: #a6e22e">src=</span><span style="color: #e6db74">&quot;//cdn.leafletjs.com/leaflet-0.7.3/leaflet.js&quot;</span><span style="color: #f92672">&gt;&lt;/script&gt;</span>
+            <span style="color: #f92672">&lt;/body&gt;</span>
+            </pre>
+            </div>
+          </section>
+          <section>
+            <h2>Create a basic Leaflet map</h2>
+            <h3>Style the &quot;div&quot;</h3>
+            <!-- HTML generated using hilite.me -->
+            <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">  <span style="color: #f92672">&lt;head&gt;</span>
+        <span style="color: #f92672">&lt;title&gt;</span>
+        Leaflet Demo
+        <span style="color: #f92672">&lt;/title&gt;</span>
+        <span style="color: #f92672">&lt;style&gt;</span>
+            <span style="color: #f92672">body,</span>
+            <span style="color: #f92672">html</span> <span style="color: #f8f8f2">{</span>
+            <span style="color: #66d9ef">height</span><span style="color: #f92672">:</span> <span style="color: #ae81ff">100</span><span style="color: #f92672">%</span><span style="color: #f8f8f2">;</span>
+            <span style="color: #f8f8f2">}</span>
+            <span style="color: #a6e22e">#map</span> <span style="color: #f8f8f2">{</span>
+            <span style="color: #66d9ef">width</span><span style="color: #f92672">:</span> <span style="color: #ae81ff">100</span><span style="color: #f92672">%</span><span style="color: #f8f8f2">;</span>
+            <span style="color: #66d9ef">height</span><span style="color: #f92672">:</span> <span style="color: #ae81ff">100</span><span style="color: #f92672">%</span><span style="color: #f8f8f2">;</span>
+            <span style="color: #f8f8f2">}</span>
+            <span style="color: #f92672">&lt;/style&gt;</span>
+            <span style="color: #f92672">&lt;/head&gt;</span>
+            </pre>
+            </div>
+          </section>
+          <section>
+            <h2>Create a basic Leaflet map</h2>
+            <h3>Create a script tag</h3>
+            <!-- HTML generated using hilite.me -->
+            <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+              <pre style="margin: 0; line-height: 125%">  <span style="color: #f92672">&lt;body&gt;</span>
+              <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">id=</span><span style="color: #e6db74">&quot;map&quot;</span><span style="color: #f92672">&gt;&lt;/div&gt;</span>
+              <span style="color: #f92672">&lt;script</span> <span style="color: #a6e22e">src=</span><span style="color: #e6db74">&quot;//cdn.leafletjs.com/leaflet-0.7.3/leaflet.js&quot;</span><span style="color: #f92672">&gt;&lt;/script&gt;</span>
+              <span style="color: #f92672">&lt;script&gt;</span>
+              <span style="color: #f92672">&lt;/script&gt;</span>
+              <span style="color: #f92672">&lt;/body&gt;</span>
+            </pre>
+            </div>
+          </section>
+          <section>
+            <h2>Create a basic Leaflet map</h2>
+            <h3>Create a map and assign it to the &quot;div&quot; element</h3>
+            <!-- HTML generated using hilite.me -->
+            <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+              <pre style="margin: 0; line-height: 125%"><span style="color: #66d9ef">var</span> <span style="color: #a6e22e">map</span> <span style="color: #f92672">=</span> <span style="color: #a6e22e">L</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">map</span><span style="color: #f8f8f2">(</span><span style="color: #e6db74">&#39;map&#39;</span><span style="color: #f8f8f2">).</span><span style="color: #a6e22e">setView</span><span style="color: #f8f8f2">([</span><span style="color: #ae81ff">39.75</span><span style="color: #f8f8f2">,</span> <span style="color: #f92672">-</span><span style="color: #ae81ff">105</span><span style="color: #f8f8f2">],</span> <span style="color: #ae81ff">15</span><span style="color: #f8f8f2">);</span>
+              </pre>
+            </div>
+          </section>
+          <section>
+            <h2>Create a basic Leaflet map</h2>
+            <h3>Create a tileLayer and assign it to the map</h3>
+            <!-- HTML generated using hilite.me -->
+            <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+              <pre style="margin: 0; line-height: 125%"><span style="color: #a6e22e">L</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">tileLayer</span><span style="color: #f8f8f2">(</span><span style="color: #e6db74">&#39;https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png&#39;</span><span style="color: #f8f8f2">,</span> <span style="color: #f8f8f2">{</span>
+              <span style="color: #a6e22e">maxZoom</span><span style="color: #f92672">:</span> <span style="color: #ae81ff">18</span><span style="color: #f8f8f2">,</span>
+              <span style="color: #a6e22e">attribution</span><span style="color: #f92672">:</span> <span style="color: #e6db74">&quot;OpenStreetMap, Mapbox, and NPS&quot;</span><span style="color: #f8f8f2">,</span>
+              <span style="color: #a6e22e">id</span><span style="color: #f92672">:</span> <span style="color: #e6db74">&#39;nps.k7chg4fe&#39;</span>
+              <span style="color: #f8f8f2">}).</span><span style="color: #a6e22e">addTo</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">map</span><span style="color: #f8f8f2">);</span>
+            </pre>
+            </div>
+          </section>
+          <section>
+            <h2>Create a basic Leaflet map</h2>
+            <h3>Add a marker to the map</h3>
+            <!-- HTML generated using hilite.me -->
+            <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+              <pre style="margin: 0; line-height: 125%"><span style="color: #66d9ef">var</span> <span style="color: #a6e22e">marker</span> <span style="color: #f92672">=</span> <span style="color: #a6e22e">L</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">marker</span><span style="color: #f8f8f2">([</span><span style="color: #ae81ff">39.75</span><span style="color: #f8f8f2">,</span> <span style="color: #f92672">-</span><span style="color: #ae81ff">105</span><span style="color: #f8f8f2">]).</span><span style="color: #a6e22e">addTo</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">map</span><span style="color: #f8f8f2">);</span>
+              </pre>
+            </div>
+          </section>
+          <section>
+            <h2>Modify the simple map to use GeoJSON</h2>
+            <h3>Add the &quot;reqwest&quot; library</h3>
+            <!-- HTML generated using hilite.me -->
+              <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">  
+              <span style="color: #f92672">&lt;body&gt;</span>
+              <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">id=</span><span style="color: #e6db74">&quot;map&quot;</span><span style="color: #f92672">&gt;&lt;/div&gt;</span>
+              <span style="color: #f92672">&lt;style</span> <span style="color: #a6e22e">src=</span><span style="color: #e6db74">&quot;//cdn.leafletjs.com/leaflet-0.7.3/leaflet.js&quot;</span><span style="color: #f92672">&gt;&lt;/script&gt;</span>
+              <span style="color: #f92672">&lt;style</span> <span style="color: #a6e22e">src=</span><span style="color: #e6db74">&quot;//cdnjs.cloudflare.com/ajax/libs/reqwest/1.1.5/reqwest.min.js&quot;</span>
+              <span style="color: #f92672">&gt;&lt;/script&gt;</span>
+              <span style="color: #f92672">&lt;script&gt;</span>
+              <span style="color: #f8f8f2">...</span>
+              <span style="color: #f92672">&lt;/script&gt;</span>
+              <span style="color: #f92672">&lt;/body&gt;</span>
+            </pre>
+            </div>
+          </section>
+          <section>
+            <h2>Modify the simple map to use GeoJSON</h2>
+            <h3>Load the GeoJSON from CartoDB</h3>
+            <!-- HTML generated using hilite.me -->
+            <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #66d9ef">var</span> <span style="color: #a6e22e">geojsonLink</span> <span style="color: #f92672">=</span> <span style="color: #e6db74">&#39;https://npmap-demo-account.cartodb.com/api/v1/sql?q=select+*+from+restaurants_modified&amp;format=geojson&#39;</span><span style="color: #f8f8f2">;</span>
+            </pre>
+            </div>
+          </section>
+
+          <section>
+            <h2>Modify the simple map to use GeoJSON</h2>
+            <h3>Add the GeoJSON to the map</h3>
+            <!-- HTML generated using hilite.me -->
+              <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #a6e22e">reqwest</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">geojsonLink</span><span style="color: #f8f8f2">,</span> <span style="color: #66d9ef">function</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">result</span><span style="color: #f8f8f2">)</span> <span style="color: #f8f8f2">{</span>
+              <span style="color: #a6e22e">L</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">geoJson</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">result</span><span style="color: #f8f8f2">).</span><span style="color: #a6e22e">addTo</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">map</span><span style="color: #f8f8f2">);</span>
+              <span style="color: #f8f8f2">});</span>
+            </pre>
+            </div>
+          </section>
+          <section>
+            <h2>Style the data</h2>
+            <h3>Add a custom marker</h3>
+            <!-- HTML generated using hilite.me -->
+            <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #a6e22e">reqwest</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">geojsonLink</span><span style="color: #f8f8f2">,</span> <span style="color: #66d9ef">function</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">result</span><span style="color: #f8f8f2">)</span> <span style="color: #f8f8f2">{</span>
+            <span style="color: #a6e22e">L</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">geoJson</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">result</span><span style="color: #f8f8f2">,</span> <span style="color: #f8f8f2">{</span>
+            <span style="color: #a6e22e">pointToLayer</span><span style="color: #f92672">:</span> <span style="color: #66d9ef">function</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">feature</span><span style="color: #f8f8f2">,</span> <span style="color: #a6e22e">latlng</span><span style="color: #f8f8f2">)</span> 
+            <span style="color: #f8f8f2">{</span>
+            <span style="color: #66d9ef">return</span> <span style="color: #a6e22e">L</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">circleMarker</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">latlng</span><span style="color: #f8f8f2">);</span>
+            <span style="color: #f8f8f2">}</span>
+            <span style="color: #f8f8f2">}).</span><span style="color: #a6e22e">addTo</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">map</span><span style="color: #f8f8f2">);</span>
+            <span style="color: #f8f8f2">});</span>
+            </pre>
+            </div>
+          </section>
+          <section>
+            <h2>Style the data</h2>
+            <h3>Style the marker</h3>
+            <!-- HTML generated using hilite.me -->
+            <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #a6e22e">reqwest</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">geojsonLink</span><span style="color: #f8f8f2">,</span> <span style="color: #66d9ef">function</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">result</span><span style="color: #f8f8f2">)</span> <span style="color: #f8f8f2">{</span>
+            <span style="color: #a6e22e">L</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">geoJson</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">result</span><span style="color: #f8f8f2">,</span> <span style="color: #f8f8f2">{</span>
+            <span style="color: #a6e22e">pointToLayer</span><span style="color: #f92672">:</span> <span style="color: #66d9ef">function</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">feature</span><span style="color: #f8f8f2">,</span> <span style="color: #a6e22e">latlng</span><span style="color: #f8f8f2">)</span> <span style="color: #f8f8f2">{</span>
+            <span style="color: #66d9ef">return</span> <span style="color: #a6e22e">L</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">circleMarker</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">latlng</span><span style="color: #f8f8f2">,</span> <span style="color: #f8f8f2">{</span>
+            <span style="color: #a6e22e">color</span><span style="color: #f92672">:</span> <span style="color: #e6db74">&#39;white&#39;</span><span style="color: #f8f8f2">,</span>
+            <span style="color: #a6e22e">fillOpacity</span><span style="color: #f92672">:</span> <span style="color: #ae81ff">1</span><span style="color: #f8f8f2">,</span>
+            <span style="color: #a6e22e">radius</span><span style="color: #f92672">:</span> <span style="color: #ae81ff">6</span>
+            <span style="color: #f8f8f2">});</span>
+            <span style="color: #f8f8f2">}</span>
+            <span style="color: #f8f8f2">}).</span><span style="color: #a6e22e">addTo</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">map</span><span style="color: #f8f8f2">);</span>
+            <span style="color: #f8f8f2">});</span>
+            </pre>
+            </div>
+          </section>
+          <section>
+            <h2>Style the data</h2>
+            <h3>Define the colors</h3>
+            <!-- HTML generated using hilite.me -->
+            <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #66d9ef">var</span> <span style="color: #a6e22e">colors</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">{</span>
+            <span style="color: #e6db74">&#39;Bar&#39;</span><span style="color: #f92672">:</span> <span style="color: #e6db74">&#39;#8e44ad&#39;</span><span style="color: #f8f8f2">,</span>
+            <span style="color: #e6db74">&#39;Cafe&#39;</span><span style="color: #f92672">:</span> <span style="color: #e6db74">&#39;#e74c3c&#39;</span><span style="color: #f8f8f2">,</span>
+            <span style="color: #e6db74">&#39;Pub &#39;</span><span style="color: #f92672">:</span> <span style="color: #e6db74">&#39;#16a085&#39;</span><span style="color: #f8f8f2">,</span>
+            <span style="color: #e6db74">&#39;Restaurant&#39;</span><span style="color: #f92672">:</span> <span style="color: #e6db74">&#39;#f1c40f&#39;</span>
+            <span style="color: #f8f8f2">};</span>
+            </pre>
+            </div>
+          </section>
+          <section>
+            <h2>Style the data</h2>
+            <h3>Link the colors</h3>
+            <!-- HTML generated using hilite.me -->
+            <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #a6e22e">reqwest</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">geojsonLink</span><span style="color: #f8f8f2">,</span> <span style="color: #66d9ef">function</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">result</span><span style="color: #f8f8f2">)</span> <span style="color: #f8f8f2">{</span>
+            <span style="color: #a6e22e">L</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">geoJson</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">result</span><span style="color: #f8f8f2">,</span> <span style="color: #f8f8f2">{</span>
+            <span style="color: #a6e22e">pointToLayer</span><span style="color: #f92672">:</span> <span style="color: #66d9ef">function</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">feature</span><span style="color: #f8f8f2">,</span> <span style="color: #a6e22e">latlng</span><span style="color: #f8f8f2">)</span> <span style="color: #f8f8f2">{</span>
+            <span style="color: #66d9ef">return</span> <span style="color: #a6e22e">L</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">circleMarker</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">latlng</span><span style="color: #f8f8f2">,</span> <span style="color: #f8f8f2">{</span>
+            <span style="color: #a6e22e">color</span><span style="color: #f92672">:</span> <span style="color: #e6db74">&#39;white&#39;</span><span style="color: #f8f8f2">,</span>
+            <span style="color: #a6e22e">fillColor</span><span style="color: #f92672">:</span> <span style="color: #a6e22e">colors</span><span style="color: #f8f8f2">[</span><span style="color: #a6e22e">feature</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">properties</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">amenity</span><span style="color: #f8f8f2">],</span>
+            <span style="color: #a6e22e">fillOpacity</span><span style="color: #f92672">:</span> <span style="color: #ae81ff">1</span><span style="color: #f8f8f2">,</span>
+            <span style="color: #a6e22e">radius</span><span style="color: #f92672">:</span> <span style="color: #ae81ff">6</span>
+            <span style="color: #f8f8f2">});</span>
+            <span style="color: #f8f8f2">}</span>
+            <span style="color: #f8f8f2">}).</span><span style="color: #a6e22e">addTo</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">map</span><span style="color: #f8f8f2">);</span>
+            <span style="color: #f8f8f2">});</span>
+            </pre>
+            </div>
+          </section>
+
+          <section>
+            <h2>Add popups</h2>
+            <h3>Include Handlebars</h3>
+            <!-- HTML generated using hilite.me -->
+            <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">  <span style="color: #f92672">&lt;body&gt;</span>
+            <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">id=</span><span style="color: #e6db74">&quot;map&quot;</span><span style="color: #f92672">&gt;&lt;/div&gt;</span>
+            <span style="color: #f92672">&lt;script</span> <span style="color: #a6e22e">src=</span><span style="color: #e6db74">&quot;//cdn.leafletjs.com/leaflet-0.7.3/leaflet.js&quot;</span><span style="color: #f92672">&gt;&lt;/script&gt;</span>
+            <span style="color: #f92672">&lt;script</span> <span style="color: #a6e22e">src=</span><span style="color: #e6db74">&quot;//cdnjs.cloudflare.com/ajax/libs/reqwest/1.1.5/reqwest.min.js&quot;</span><span style="color: #f92672">&gt;&lt;/script&gt;</span>
+            <span style="color: #f92672">&lt;script</span> <span style="color: #a6e22e">src=</span><span style="color: #e6db74">&quot;//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js&quot;</span><span style="color: #f92672">&gt;&lt;/script&gt;</span>
+            <span style="color: #f92672">&lt;script&gt;</span>
+            <span style="color: #f8f8f2">...</span>
+            <span style="color: #f92672">&lt;/script&gt;</span>
+            <span style="color: #f92672">&lt;/body&gt;</span>
+            </pre>
+            </div>
+          </section>
+          <section>
+            <h2>Add popups</h2>
+            <h3>Create a function to generate the popup content</h3>
+            <!-- HTML generated using hilite.me -->
+            <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+              <pre style="margin: 0; line-height: 125%"><span style="color: #66d9ef">var</span> 
+              <span style="color: #a6e22e">popupContent</span>
+              <span style="color: #f92672">=</span>  
+              <span style="color: #66d9ef">function</span>
+              <span style="color: #f8f8f2">(</span>
+              <span style="color: #a6e22e">properties</span>
+              <span style="color: #f8f8f2">)</span> <span style="color: #f8f8f2">{</span>
+              <span style="color: #66d9ef">var</span> <span style="color: #a6e22e">content</span> <span style="color: #f92672">=</span> <span style="color: #e6db74">&#39;&lt;div class=&quot;popup&quot;&gt;&#39;</span> <span style="color: #f92672">+</span>
+              <span style="color: #e6db74">&#39;&lt;span class=&quot;title&quot;&gt;{{name}}&lt;/span&gt;&lt;br/&gt;&#39;</span> <span style="color: #f92672">+</span>
+              <span style="color: #e6db74">&#39;{{address}}&lt;br/&gt;&#39;</span> <span style="color: #f92672">+</span>
+              <span style="color: #e6db74">&#39;&lt;hr/&gt;&#39;</span> <span style="color: #f92672">+</span>
+              <span style="color: #e6db74">&#39;&lt;span class=&quot;title&quot;&gt;Amenity&lt;/span&gt;: {{amenity}}&lt;br/&gt;&#39;</span> <span style="color: #f92672">+</span>
+              <span style="color: #e6db74">&#39;&lt;span class=&quot;title&quot;&gt;Cuisine&lt;/span&gt;: {{cuisine}}&lt;br/&gt;&#39;</span> <span style="color: #f92672">+</span>
+              <span style="color: #e6db74">&#39;&lt;span class=&quot;title&quot;&gt;Rating&lt;/span&gt;: {{rating}}&#39;</span> <span style="color: #f92672">+</span>
+              <span style="color: #e6db74">&#39;&lt;/div&gt;&#39;</span><span style="color: #f8f8f2">;</span>
+              <span style="color: #66d9ef">return</span> <span style="color: #a6e22e">Handlebars</span>
+              <span style="color: #f8f8f2">.</span><span style="color: #a6e22e">compile</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">content</span><span style="color: #f8f8f2">)(</span><span style="color: #a6e22e">properties</span><span style="color: #f8f8f2">);</span>
+              <span style="color: #f8f8f2">};</span>
+              </pre>
+            </div>
+          </section>
+          <section>
+            <h2>Add popups</h2>
+            <h3>Add an &quot;onEachFeature&quot; section</h3>
+            <!-- HTML generated using hilite.me -->
+              <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #a6e22e">reqwest</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">geojsonLink</span><span style="color: #f8f8f2">,</span> <span style="color: #66d9ef">function</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">result</span><span style="color: #f8f8f2">)</span> <span style="color: #f8f8f2">{</span>
+              <span style="color: #a6e22e">L</span><span style="color: #f8f8f2">.</span>
+              <span style="color: #a6e22e">geoJson</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">result</span><span style="color: #f8f8f2">,</span> <span style="color: #f8f8f2">{</span>
+              <span style="color: #a6e22e">pointToLayer</span><span style="color: #f92672">:</span> <span style="color: #66d9ef">function</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">feature</span><span style="color: #f8f8f2">,</span> <span style="color: #a6e22e">latlng</span><span style="color: #f8f8f2">)</span> 
+              <span style="color: #f8f8f2">{</span>
+              <span style="color: #66d9ef">return</span> <span style="color: #a6e22e">L</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">circleMarker</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">latlng</span><span style="color: #f8f8f2">,</span> 
+              <span style="color: #f8f8f2">{</span>
+              <span style="color: #a6e22e">color</span><span style="color: #f92672">:</span> 
+              <span style="color: #e6db74">&#39;white&#39;</span>
+              <span style="color: #f8f8f2">,</span>
+              <span style="color: #a6e22e">fillColor</span><span style="color: #f92672">:</span>
+              <span style="color: #a6e22e">colors</span><span style="color: #f8f8f2">[</span><span style="color: #a6e22e">feature</span>
+              <span style="color: #f8f8f2">.</span><span style="color: #a6e22e">properties</span>
+              <span style="color: #f8f8f2">.</span>
+              <span style="color: #a6e22e">amenity</span><span style="color: #f8f8f2">],</span>
+              <span style="color: #a6e22e">fillOpacity</span><span style="color: #f92672">:</span> <span style="color: #ae81ff">1</span><span style="color: #f8f8f2">,</span>
+              <span style="color: #a6e22e">radius</span><span style="color: #f92672">:</span> <span style="color: #ae81ff">6</span>
+              <span style="color: #f8f8f2">});},</span>
+              <span style="color: #a6e22e">onEachFeature</span><span style="color: #f92672">:</span> <span style="color: #66d9ef">function</span>
+              <span style="color: #f8f8f2">(</span><span style="color: #a6e22e">feature</span><span style="color: #f8f8f2">,</span> <span style="color: #a6e22e">layer</span><span style="color: #f8f8f2">)  </span> 
+              <span style="color: #f8f8f2">{</span>
+              <span style="color: #66d9ef">return</span> <span style="color: #a6e22e">layer</span>
+              <span style="color: #f8f8f2">.</span><span style="color: #a6e22e">bindPopup</span><span style="color: #f8f8f2">(</span>
+              <span style="color: #a6e22e">popupContent</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">feature</span>    
+              <span style="color: #f8f8f2">.</span>
+              <span style="color: #a6e22e">properties</span><span style="color: #f8f8f2">));</span>
+              <span style="color: #f8f8f2">}</span>
+              <span style="color: #f8f8f2">}).</span><span style="color: #a6e22e">addTo</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">map</span><span style="color: #f8f8f2">);</span>
+              <span style="color: #f8f8f2">});</span>
+              </pre>
+            </div>
+          </section>
+          <section>
+            <h2>Plugins</h2>
+            <h3><a href="http://leafletjs.com/plugins.html">Leaflet plugins</a></h3>
+            <h4>http://leafletjs.com/plugins.html</h4>
+          </section>
+          <section>
+            <h2>leaflet.draw</h2>
+            <h3>Add CSS link</h3>
+            <!-- HTML generated using hilite.me -->
+            <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+          <pre style="margin: 0; line-height: 125%">  
             <span style="color: #f92672">&lt;head&gt;</span>
             <span style="color: #f92672">&lt;title&gt;</span>
-              Leaflet Demo
+            Leaflet Demo
             <span style="color: #f92672">&lt;/title&gt;</span>
+            <span style="color: #f92672">&lt;link</span> <span style="color: #a6e22e">rel=</span>
+            <span style="color: #e6db74">&quot;stylesheet&quot;</span> <span style="color: #a6e22e">href=</span>
+            <span style="color: #e6db74">&quot;//cdn.leafletjs.com/leaflet-0.7.3/leaflet.css&quot;</span> 
+            <span style="color: #f92672">/&gt;</span>
+            <span style="color: #f92672">&lt;link</span> 
+            <span style="color: #a6e22e">rel=</span><span style="color: #e6db74">&quot;stylesheet&quot;</span> 
+            <span style="color: #a6e22e">href=</span>
+            <span style="color: #e6db74">&quot;//leaflet.github.io/Leaflet.draw/leaflet.draw.js&quot;</span>
+            <span style="color: #f92672">/&gt;</span>
             <span style="color: #f92672">&lt;/head&gt;</span>
-            <span style="color: #f92672">&lt;body&gt;</span>
+            </pre>
+          </div>
+          </section>
+          <section>
+            <h2>leaflet.draw</h2>
+            <h3>Add JavaScript link</h3>
+            <!-- HTML generated using hilite.me -->
+            <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">  <span style="color: #f92672">&lt;body&gt;</span>
+            <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">id=</span><span style="color: #e6db74">&quot;map&quot;</span><span style="color: #f92672">&gt;&lt;/div&gt;</span>
+            <span style="color: #f92672">&lt;script</span> <span style="color: #a6e22e">src=</span><span style="color: #e6db74">&quot;//cdn.leafletjs.com/leaflet-0.7.3/leaflet.js&quot;</span><span style="color: #f92672">&gt;&lt;/script&gt;</span>
+            <span style="color: #f92672">&lt;script</span> <span style="color: #a6e22e">src=</span><span style="color: #e6db74">&quot;//cdnjs.cloudflare.com/ajax/libs/reqwest/1.1.5/reqwest.min.js&quot;</span><span style="color: #f92672">&gt;&lt;/script&gt;</span>
+            <span style="color: #f92672">&lt;script</span> <span style="color: #a6e22e">src=</span><span style="color: #e6db74">&quot;//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js&quot;</span><span style="color: #f92672">&gt;&lt;/script&gt;</span>
+            <span style="color: #f92672">&lt;script</span> <span style="color: #a6e22e">src=</span><span style="color: #e6db74">&quot;//leaflet.github.io/Leaflet.draw/leaflet.draw.js&quot;</span><span style="color: #f92672">&gt;&lt;/script&gt;</span>
+            <span style="color: #f92672">&lt;script&gt;</span>
+            <span style="color: #f8f8f2">...</span>
+            <span style="color: #f92672">&lt;/script&gt;</span>
             <span style="color: #f92672">&lt;/body&gt;</span>
-            <span style="color: #f92672">&lt;/html&gt;</span>
-          </pre>
-        </div>
-      </section>
-      <section>
-        <h2>Create a basic Leaflet map</h2>
-        <h3>Include the Leaflet library CSS</h3>
-        <!-- HTML generated using hilite.me -->
-        <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">  <span style="color: #f92672">&lt;head&gt;</span>
-    <span style="color: #f92672">&lt;title&gt;</span>
-      Leaflet Demo
-    <span style="color: #f92672">&lt;/title&gt;</span>
-    <span style="color: #f92672">&lt;link</span> <span style="color: #a6e22e">rel=</span><span style="color: #e6db74">&quot;stylesheet&quot;</span> <span style="color: #a6e22e">href=</span><span style="color: #e6db74">&quot;//cdn.leafletjs.com/leaflet-0.7.3/leaflet.css&quot;</span> <span style="color: #f92672">/&gt;</span>
-  <span style="color: #f92672">&lt;/head&gt;</span>
-</pre>
-        </div>
-      </section>
+              </pre>
+            </div>
+          </section>
+          <section>
+            <h2>leaflet.draw</h2>
+            <h3>Sample Code </h3>
+            <!-- HTML generated using hilite.me -->
+            <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;font-size:12pt;"><pre style="margin: 0; line-height: 125%"><span style="color: #66d9ef">var</span> <span style="color: #a6e22e">drawnItems</span> <span style="color: #f92672">=</span> <span style="color: #66d9ef">new</span> <span style="color: #a6e22e">L</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">FeatureGroup</span><span style="color: #f8f8f2">();</span>
+            <span style="color: #a6e22e">map</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">addLayer</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">drawnItems</span><span style="color: #f8f8f2">);</span>
+            <span style="color: #66d9ef">var</span> <span style="color: #a6e22e">drawControl</span> <span style="color: #f92672">=</span> <span style="color: #66d9ef">new</span> <span style="color: #a6e22e">L</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">Control</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">Draw</span><span style="color: #f8f8f2">({</span>
+            <span style="color: #a6e22e">draw</span><span style="color: #f92672">:</span> <span style="color: #f8f8f2">{</span>
+            <span style="color: #a6e22e">position</span><span style="color: #f92672">:</span> <span style="color: #e6db74">&#39;topleft&#39;</span>
+            <span style="color: #f8f8f2">,</span>
+            <span style="color: #a6e22e">polygon</span><span style="color: #f92672">:</span> <span style="color: #f8f8f2">{</span>
+          <span style="color: #a6e22e">title</span><span style="color: #f92672">:</!!! 5
+%html{lang: 'en', class: 'no-js'}
+  %head
+    %title Fulcrum Report
+    %meta{content: 'recurse=no', name: 'fulcrum-report-settings'}
 
-      <section>
-        <h2>Create a basic Leaflet map</h2>
-        <h3>Include the Leaflet library JavaScript</h3>
-        <!-- HTML generated using hilite.me -->
-        <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">  <span style="color: #f92672">&lt;body&gt;</span>
-    <span style="color: #f92672">&lt;script</span> <span style="color: #a6e22e">src=</span><span style="color: #e6db74">&quot;//cdn.leafletjs.com/leaflet-0.7.3/leaflet.js&quot;</span><span style="color: #f92672">&gt;&lt;/script&gt;</span>
-  <span style="color: #f92672">&lt;/body&gt;</span>
-</pre>
-        </div>
-      </section>
+    :sass
+      @font-face
+        font-family: 'Open Sans'
+        font-style: normal
+        font-weight: 400
+        src: local('Open Sans'), local('OpenSans'), url(file://#{::File.join(::Rails.root, 'db', 'default_report_font.ttf')}) format('truetype')
 
-      <section>
-        <h2>Create a basic Leaflet map</h2>
-        <h3>Create a &quot;div&quot; for the map</h3>
-        <!-- HTML generated using hilite.me -->
-        <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">  <span style="color: #f92672">&lt;body&gt;</span>
-    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">id=</span><span style="color: #e6db74">&quot;map&quot;</span><span style="color: #f92672">&gt;&lt;/div&gt;</span>
-    <span style="color: #f92672">&lt;script</span> <span style="color: #a6e22e">src=</span><span style="color: #e6db74">&quot;//cdn.leafletjs.com/leaflet-0.7.3/leaflet.js&quot;</span><span style="color: #f92672">&gt;&lt;/script&gt;</span>
-  <span style="color: #f92672">&lt;/body&gt;</span>
-</pre>
-        </div>
-      </section>
+      $font-size: 16px
+      $font-size-title: 22px
+      $line-color: #cbcbcb
 
-      <section>
-        <h2>Create a basic Leaflet map</h2>
-        <h3>Style the &quot;div&quot;</h3>
-        <!-- HTML generated using hilite.me -->
-        <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">  <span style="color: #f92672">&lt;head&gt;</span>
-    <span style="color: #f92672">&lt;title&gt;</span>
-    Leaflet Demo
-    <span style="color: #f92672">&lt;/title&gt;</span>
-    <span style="color: #f92672">&lt;style&gt;</span>
-      <span style="color: #f92672">body,</span>
-      <span style="color: #f92672">html</span> <span style="color: #f8f8f2">{</span>
-        <span style="color: #66d9ef">height</span><span style="color: #f92672">:</span> <span style="color: #ae81ff">100</span><span style="color: #f92672">%</span><span style="color: #f8f8f2">;</span>
-      <span style="color: #f8f8f2">}</span>
-      <span style="color: #a6e22e">#map</span> <span style="color: #f8f8f2">{</span>
-        <span style="color: #66d9ef">width</span><span style="color: #f92672">:</span> <span style="color: #ae81ff">100</span><span style="color: #f92672">%</span><span style="color: #f8f8f2">;</span>
-        <span style="color: #66d9ef">height</span><span style="color: #f92672">:</span> <span style="color: #ae81ff">100</span><span style="color: #f92672">%</span><span style="color: #f8f8f2">;</span>
-     <span style="color: #f8f8f2">}</span>
-    <span style="color: #f92672">&lt;/style&gt;</span>
-  <span style="color: #f92672">&lt;/head&gt;</span>
-</pre>
-        </div>
-      </section>
+      html, body
+        font-family: 'Open Sans', sans-serif
+        padding: 0
+        margin: 0
+        box-sizing: border-box
 
-      <section>
-        <h2>Create a basic Leaflet map</h2>
-        <h3>Create a script tag</h3>
-        <!-- HTML generated using hilite.me -->
-        <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">  <span style="color: #f92672">&lt;body&gt;</span>
-    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">id=</span><span style="color: #e6db74">&quot;map&quot;</span><span style="color: #f92672">&gt;&lt;/div&gt;</span>
-    <span style="color: #f92672">&lt;script</span> <span style="color: #a6e22e">src=</span><span style="color: #e6db74">&quot;//cdn.leafletjs.com/leaflet-0.7.3/leaflet.js&quot;</span><span style="color: #f92672">&gt;&lt;/script&gt;</span>
-    <span style="color: #f92672">&lt;script&gt;</span>
-    
-    <span style="color: #f92672">&lt;/script&gt;</span>
-  <span style="color: #f92672">&lt;/body&gt;</span>
-</pre>
-        </div>
-      </section>
+      body
+        width: 1050px
+        font-size: $font-size
 
-      <section>
-        <h2>Create a basic Leaflet map</h2>
-        <h3>Create a map and assign it to the &quot;div&quot; element</h3>
-        <!-- HTML generated using hilite.me -->
-        <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #66d9ef">var</span> <span style="color: #a6e22e">map</span> <span style="color: #f92672">=</span> <span style="color: #a6e22e">L</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">map</span><span style="color: #f8f8f2">(</span><span style="color: #e6db74">&#39;map&#39;</span><span style="color: #f8f8f2">).</span><span style="color: #a6e22e">setView</span><span style="color: #f8f8f2">([</span><span style="color: #ae81ff">39.75</span><span style="color: #f8f8f2">,</span> <span style="color: #f92672">-</span><span style="color: #ae81ff">105</span><span style="color: #f8f8f2">],</span> <span style="color: #ae81ff">15</span><span style="color: #f8f8f2">);</span>
-</pre>
-        </div>
-      </section>
+      h1, h2, h3, h4, h5, h6
+        margin: 0
+        padding: 0
 
-      <section>
-        <h2>Create a basic Leaflet map</h2>
-        <h3>Create a tileLayer and assign it to the map</h3>
-        <!-- HTML generated using hilite.me -->
-        <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #a6e22e">L</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">tileLayer</span><span style="color: #f8f8f2">(</span><span style="color: #e6db74">&#39;https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png&#39;</span><span style="color: #f8f8f2">,</span> <span style="color: #f8f8f2">{</span>
-  <span style="color: #a6e22e">maxZoom</span><span style="color: #f92672">:</span> <span style="color: #ae81ff">18</span><span style="color: #f8f8f2">,</span>
-  <span style="color: #a6e22e">attribution</span><span style="color: #f92672">:</span> <span style="color: #e6db74">&quot;OpenStreetMap, Mapbox, and NPS&quot;</span><span style="color: #f8f8f2">,</span>
-  <span style="color: #a6e22e">id</span><span style="color: #f92672">:</span> <span style="color: #e6db74">&#39;nps.k7chg4fe&#39;</span>
-<span style="color: #f8f8f2">}).</span><span style="color: #a6e22e">addTo</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">map</span><span style="color: #f8f8f2">);</span>
-</pre>
-        </div>
-      </section>
+      .field
+        padding: 4px 0
+        border-bottom: 1px solid $line-color
+        page-break-inside: avoid
 
-      <section>
-        <h2>Create a basic Leaflet map</h2>
-        <h3>Add a marker to the map</h3>
-        <!-- HTML generated using hilite.me -->
-        <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #66d9ef">var</span> <span style="color: #a6e22e">marker</span> <span style="color: #f92672">=</span> <span style="color: #a6e22e">L</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">marker</span><span style="color: #f8f8f2">([</span><span style="color: #ae81ff">39.75</span><span style="color: #f8f8f2">,</span> <span style="color: #f92672">-</span><span style="color: #ae81ff">105</span><span style="color: #f8f8f2">]).</span><span style="color: #a6e22e">addTo</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">map</span><span style="color: #f8f8f2">);</span>
-</pre>
-        </div>
-      </section>
+      .field-label
+        font-weight: bold
+        float: left
+        width: 380px
+        padding-right: 20px
+        text-align: left
+        font-size: $font-size
 
-      <section>
-        <h2>Modify the simple map to use GeoJSON</h2>
-        <h3>Add the &quot;reqwest&quot; library</h3>
-        <!-- HTML generated using hilite.me -->
-        <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">  <span style="color: #f92672">&lt;body&gt;</span>
-    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">id=</span><span style="color: #e6db74">&quot;map&quot;</span><span style="color: #f92672">&gt;&lt;/div&gt;</span>
-    <span style="color: #f92672">&lt;style</span> <span style="color: #a6e22e">src=</span><span style="color: #e6db74">&quot;//cdn.leafletjs.com/leaflet-0.7.3/leaflet.js&quot;</span><span style="color: #f92672">&gt;&lt;/script&gt;</span>
-    <span style="color: #f92672">&lt;style</span> <span style="color: #a6e22e">src=</span><span style="color: #e6db74">&quot;//cdnjs.cloudflare.com/ajax/libs/reqwest/1.1.5/reqwest.min.js&quot;</span><span style="color: #f92672">&gt;&lt;/script&gt;</span>
-    <span style="color: #f92672">&lt;script&gt;</span>
-       <span style="color: #f8f8f2">...</span>
-    <span style="color: #f92672">&lt;/script&gt;</span>
-  <span style="color: #f92672">&lt;/body&gt;</span>
-</pre>
-        </div>
-      </section>
+      .field-label-full
+        font-weight: normal
+        float: left
+        width: 1050px
+        text-align: left
+        margin: 0
+        font-size: $font-size
 
-      <section>
-        <h2>Modify the simple map to use GeoJSON</h2>
-        <h3>Load the GeoJSON from CartoDB</h3>
-        <!-- HTML generated using hilite.me -->
-        <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #66d9ef">var</span> <span style="color: #a6e22e">geojsonLink</span> <span style="color: #f92672">=</span> <span style="color: #e6db74">&#39;https://npmap-demo-account.cartodb.com/api/v1/sql?q=select+*+from+restaurants_modified&amp;format=geojson&#39;</span><span style="color: #f8f8f2">;</span>
-</pre>
-        </div>
-      </section>
+      .field-value
+        font-weight: normal
+        float: left
+        width: 650px
+        font-size: $font-size
 
-      <section>
-        <h2>Modify the simple map to use GeoJSON</h2>
-        <h3>Add the GeoJSON to the map</h3>
-        <!-- HTML generated using hilite.me -->
-        <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #a6e22e">reqwest</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">geojsonLink</span><span style="color: #f8f8f2">,</span> <span style="color: #66d9ef">function</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">result</span><span style="color: #f8f8f2">)</span> <span style="color: #f8f8f2">{</span>
-  <span style="color: #a6e22e">L</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">geoJson</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">result</span><span style="color: #f8f8f2">).</span><span style="color: #a6e22e">addTo</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">map</span><span style="color: #f8f8f2">);</span>
-<span style="color: #f8f8f2">});</span>
-</pre>
-        </div>
-      </section>
+        .photo
+          max-width: 650px
+          max-height: 650px
+          margin-top: 6px
 
-      <section>
-        <h2>Style the data</h2>
-        <h3>Add a custom marker</h3>
-        <!-- HTML generated using hilite.me -->
-        <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #a6e22e">reqwest</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">geojsonLink</span><span style="color: #f8f8f2">,</span> <span style="color: #66d9ef">function</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">result</span><span style="color: #f8f8f2">)</span> <span style="color: #f8f8f2">{</span>
-  <span style="color: #a6e22e">L</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">geoJson</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">result</span><span style="color: #f8f8f2">,</span> <span style="color: #f8f8f2">{</span>
-    <span style="color: #a6e22e">pointToLayer</span><span style="color: #f92672">:</span> <span style="color: #66d9ef">function</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">feature</span><span style="color: #f8f8f2">,</span> <span style="color: #a6e22e">latlng</span><span style="color: #f8f8f2">)</span> <span style="color: #f8f8f2">{</span>
-      <span style="color: #66d9ef">return</span> <span style="color: #a6e22e">L</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">circleMarker</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">latlng</span><span style="color: #f8f8f2">);</span>
-    <span style="color: #f8f8f2">}</span>
-  <span style="color: #f8f8f2">}).</span><span style="color: #a6e22e">addTo</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">map</span><span style="color: #f8f8f2">);</span>
-<span style="color: #f8f8f2">});</span>
-</pre>
-        </div>
-      </section>
+        .signature
+          max-width: 650px
+          max-height: 650px
+          margin-top: 6px
 
-      <section>
-        <h2>Style the data</h2>
-        <h3>Style the marker</h3>
-        <!-- HTML generated using hilite.me -->
-        <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #a6e22e">reqwest</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">geojsonLink</span><span style="color: #f8f8f2">,</span> <span style="color: #66d9ef">function</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">result</span><span style="color: #f8f8f2">)</span> <span style="color: #f8f8f2">{</span>
-  <span style="color: #a6e22e">L</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">geoJson</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">result</span><span style="color: #f8f8f2">,</span> <span style="color: #f8f8f2">{</span>
-    <span style="color: #a6e22e">pointToLayer</span><span style="color: #f92672">:</span> <span style="color: #66d9ef">function</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">feature</span><span style="color: #f8f8f2">,</span> <span style="color: #a6e22e">latlng</span><span style="color: #f8f8f2">)</span> <span style="color: #f8f8f2">{</span>
-      <span style="color: #66d9ef">return</span> <span style="color: #a6e22e">L</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">circleMarker</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">latlng</span><span style="color: #f8f8f2">,</span> <span style="color: #f8f8f2">{</span>
-        <span style="color: #a6e22e">color</span><span style="color: #f92672">:</span> <span style="color: #e6db74">&#39;white&#39;</span><span style="color: #f8f8f2">,</span>
-        <span style="color: #a6e22e">fillOpacity</span><span style="color: #f92672">:</span> <span style="color: #ae81ff">1</span><span style="color: #f8f8f2">,</span>
-        <span style="color: #a6e22e">radius</span><span style="color: #f92672">:</span> <span style="color: #ae81ff">6</span>
-      <span style="color: #f8f8f2">});</span>
-    <span style="color: #f8f8f2">}</span>
-  <span style="color: #f8f8f2">}).</span><span style="color: #a6e22e">addTo</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">map</span><span style="color: #f8f8f2">);</span>
-<span style="color: #f8f8f2">});</span>
-</pre>
-        </div>
-      </section>
+        .status-color
+          float: left
+          width: 20px
+          height: 20px
+          border-radius: 2px
+          margin-right: 8px
+          position: relative
+          top: 0px
 
-      <section>
-        <h2>Style the data</h2>
-        <h3>Define the colors</h3>
-        <!-- HTML generated using hilite.me -->
-        <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #66d9ef">var</span> <span style="color: #a6e22e">colors</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">{</span>
-  <span style="color: #e6db74">&#39;Bar&#39;</span><span style="color: #f92672">:</span> <span style="color: #e6db74">&#39;#8e44ad&#39;</span><span style="color: #f8f8f2">,</span>
-  <span style="color: #e6db74">&#39;Cafe&#39;</span><span style="color: #f92672">:</span> <span style="color: #e6db74">&#39;#e74c3c&#39;</span><span style="color: #f8f8f2">,</span>
-  <span style="color: #e6db74">&#39;Pub &#39;</span><span style="color: #f92672">:</span> <span style="color: #e6db74">&#39;#16a085&#39;</span><span style="color: #f8f8f2">,</span>
-  <span style="color: #e6db74">&#39;Restaurant&#39;</span><span style="color: #f92672">:</span> <span style="color: #e6db74">&#39;#f1c40f&#39;</span>
-<span style="color: #f8f8f2">};</span>
-</pre>
-        </div>
-      </section>
+      .field-section
+        float: left
+        width: 1050px
+        font-weight: normal
+        font-size: $font-size-title
+        border-bottom: 1px solid $line-color
+        margin-top: 20px
 
-      <section>
-        <h2>Style the data</h2>
-        <h3>Link the colors</h3>
-        <!-- HTML generated using hilite.me -->
-        <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #a6e22e">reqwest</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">geojsonLink</span><span style="color: #f8f8f2">,</span> <span style="color: #66d9ef">function</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">result</span><span style="color: #f8f8f2">)</span> <span style="color: #f8f8f2">{</span>
-  <span style="color: #a6e22e">L</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">geoJson</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">result</span><span style="color: #f8f8f2">,</span> <span style="color: #f8f8f2">{</span>
-    <span style="color: #a6e22e">pointToLayer</span><span style="color: #f92672">:</span> <span style="color: #66d9ef">function</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">feature</span><span style="color: #f8f8f2">,</span> <span style="color: #a6e22e">latlng</span><span style="color: #f8f8f2">)</span> <span style="color: #f8f8f2">{</span>
-      <span style="color: #66d9ef">return</span> <span style="color: #a6e22e">L</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">circleMarker</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">latlng</span><span style="color: #f8f8f2">,</span> <span style="color: #f8f8f2">{</span>
-        <span style="color: #a6e22e">color</span><span style="color: #f92672">:</span> <span style="color: #e6db74">&#39;white&#39;</span><span style="color: #f8f8f2">,</span>
-        <span style="color: #a6e22e">fillColor</span><span style="color: #f92672">:</span> <span style="color: #a6e22e">colors</span><span style="color: #f8f8f2">[</span><span style="color: #a6e22e">feature</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">properties</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">amenity</span><span style="color: #f8f8f2">],</span>
-        <span style="color: #a6e22e">fillOpacity</span><span style="color: #f92672">:</span> <span style="color: #ae81ff">1</span><span style="color: #f8f8f2">,</span>
-        <span style="color: #a6e22e">radius</span><span style="color: #f92672">:</span> <span style="color: #ae81ff">6</span>
-      <span style="color: #f8f8f2">});</span>
-    <span style="color: #f8f8f2">}</span>
-  <span style="color: #f8f8f2">}).</span><span style="color: #a6e22e">addTo</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">map</span><span style="color: #f8f8f2">);</span>
-<span style="color: #f8f8f2">});</span>
-</pre>
-        </div>
-      </section>
+        &.metadata
+          margin-top: 0
 
-      <section>
-        <h2>Add popups</h2>
-        <h3>Include Handlebars</h3>
-        <!-- HTML generated using hilite.me -->
-        <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">  <span style="color: #f92672">&lt;body&gt;</span>
-    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">id=</span><span style="color: #e6db74">&quot;map&quot;</span><span style="color: #f92672">&gt;&lt;/div&gt;</span>
-    <span style="color: #f92672">&lt;script</span> <span style="color: #a6e22e">src=</span><span style="color: #e6db74">&quot;//cdn.leafletjs.com/leaflet-0.7.3/leaflet.js&quot;</span><span style="color: #f92672">&gt;&lt;/script&gt;</span>
-    <span style="color: #f92672">&lt;script</span> <span style="color: #a6e22e">src=</span><span style="color: #e6db74">&quot;//cdnjs.cloudflare.com/ajax/libs/reqwest/1.1.5/reqwest.min.js&quot;</span><span style="color: #f92672">&gt;&lt;/script&gt;</span>
-    <span style="color: #f92672">&lt;script</span> <span style="color: #a6e22e">src=</span><span style="color: #e6db74">&quot;//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js&quot;</span><span style="color: #f92672">&gt;&lt;/script&gt;</span>
-    <span style="color: #f92672">&lt;script&gt;</span>
-       <span style="color: #f8f8f2">...</span>
-    <span style="color: #f92672">&lt;/script&gt;</span>
-  <span style="color: #f92672">&lt;/body&gt;</span>
-</pre>
-        </div>
-      </section>
+      .field-clear
+        height: 0
+        clear: both
 
-      <section>
-        <h2>Add popups</h2>
-        <h3>Create a function to generate the popup content</h3>
-        <!-- HTML generated using hilite.me -->
-        <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #66d9ef">var</span> <span style="color: #a6e22e">popupContent</span> <span style="color: #f92672">=</span> <span style="color: #66d9ef">function</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">properties</span><span style="color: #f8f8f2">)</span> <span style="color: #f8f8f2">{</span>
-  <span style="color: #66d9ef">var</span> <span style="color: #a6e22e">content</span> <span style="color: #f92672">=</span> <span style="color: #e6db74">&#39;&lt;div class=&quot;popup&quot;&gt;&#39;</span> <span style="color: #f92672">+</span>
-    <span style="color: #e6db74">&#39;&lt;span class=&quot;title&quot;&gt;{{name}}&lt;/span&gt;&lt;br/&gt;&#39;</span> <span style="color: #f92672">+</span>
-    <span style="color: #e6db74">&#39;{{address}}&lt;br/&gt;&#39;</span> <span style="color: #f92672">+</span>
-    <span style="color: #e6db74">&#39;&lt;hr/&gt;&#39;</span> <span style="color: #f92672">+</span>
-    <span style="color: #e6db74">&#39;&lt;span class=&quot;title&quot;&gt;Amenity&lt;/span&gt;: {{amenity}}&lt;br/&gt;&#39;</span> <span style="color: #f92672">+</span>
-    <span style="color: #e6db74">&#39;&lt;span class=&quot;title&quot;&gt;Cuisine&lt;/span&gt;: {{cuisine}}&lt;br/&gt;&#39;</span> <span style="color: #f92672">+</span>
-    <span style="color: #e6db74">&#39;&lt;span class=&quot;title&quot;&gt;Rating&lt;/span&gt;: {{rating}}&#39;</span> <span style="color: #f92672">+</span>
-    <span style="color: #e6db74">&#39;&lt;/div&gt;&#39;</span><span style="color: #f8f8f2">;</span>
-  <span style="color: #66d9ef">return</span> <span style="color: #a6e22e">Handlebars</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">compile</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">content</span><span style="color: #f8f8f2">)(</span><span style="color: #a6e22e">properties</span><span style="color: #f8f8f2">);</span>
-<span style="color: #f8f8f2">};</span>
-</pre>
-        </div>
-      </section>
+      .break-line
+        page-break-before: always
 
-      <section>
-        <h2>Add popups</h2>
-        <h3>Add an &quot;onEachFeature&quot; section</h3>
-        <!-- HTML generated using hilite.me -->
-        <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #a6e22e">reqwest</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">geojsonLink</span><span style="color: #f8f8f2">,</span> <span style="color: #66d9ef">function</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">result</span><span style="color: #f8f8f2">)</span> <span style="color: #f8f8f2">{</span>
-  <span style="color: #a6e22e">L</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">geoJson</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">result</span><span style="color: #f8f8f2">,</span> <span style="color: #f8f8f2">{</span>
-    <span style="color: #a6e22e">pointToLayer</span><span style="color: #f92672">:</span> <span style="color: #66d9ef">function</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">feature</span><span style="color: #f8f8f2">,</span> <span style="color: #a6e22e">latlng</span><span style="color: #f8f8f2">)</span> <span style="color: #f8f8f2">{</span>
-      <span style="color: #66d9ef">return</span> <span style="color: #a6e22e">L</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">circleMarker</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">latlng</span><span style="color: #f8f8f2">,</span> <span style="color: #f8f8f2">{</span>
-        <span style="color: #a6e22e">color</span><span style="color: #f92672">:</span> <span style="color: #e6db74">&#39;white&#39;</span><span style="color: #f8f8f2">,</span>
-        <span style="color: #a6e22e">fillColor</span><span style="color: #f92672">:</span> <span style="color: #a6e22e">colors</span><span style="color: #f8f8f2">[</span><span style="color: #a6e22e">feature</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">properties</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">amenity</span><span style="color: #f8f8f2">],</span>
-        <span style="color: #a6e22e">fillOpacity</span><span style="color: #f92672">:</span> <span style="color: #ae81ff">1</span><span style="color: #f8f8f2">,</span>
-        <span style="color: #a6e22e">radius</span><span style="color: #f92672">:</span> <span style="color: #ae81ff">6</span>
-      <span style="color: #f8f8f2">});},</span>
-    <span style="color: #a6e22e">onEachFeature</span><span style="color: #f92672">:</span> <span style="color: #66d9ef">function</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">feature</span><span style="color: #f8f8f2">,</span> <span style="color: #a6e22e">layer</span><span style="color: #f8f8f2">)</span> <span style="color: #f8f8f2">{</span>
-      <span style="color: #66d9ef">return</span> <span style="color: #a6e22e">layer</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">bindPopup</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">popupContent</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">feature</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">properties</span><span style="color: #f8f8f2">));</span>
-    <span style="color: #f8f8f2">}</span>
-  <span style="color: #f8f8f2">}).</span><span style="color: #a6e22e">addTo</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">map</span><span style="color: #f8f8f2">);</span>
-<span style="color: #f8f8f2">});</span>
-</pre>
-        </div>
-      </section>
+      .center
+        margin-left: 27%
 
-      <section>
-        <h2>Plugins</h2>
-        <h3><a href="http://leafletjs.com/plugins.html">Leaflet plugins</a></h3>
-        <h4>http://leafletjs.com/plugins.html</h4>
-      </section>
+      #title
+        margin-left: 32%
 
-      <section>
-        <h2>leaflet.draw</h2>
-        <h3>Add CSS link</h3>
-        <!-- HTML generated using hilite.me -->
-        <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">  <span style="color: #f92672">&lt;head&gt;</span>
-    <span style="color: #f92672">&lt;title&gt;</span>
-      Leaflet Demo
-    <span style="color: #f92672">&lt;/title&gt;</span>
-    <span style="color: #f92672">&lt;link</span> <span style="color: #a6e22e">rel=</span><span style="color: #e6db74">&quot;stylesheet&quot;</span> <span style="color: #a6e22e">href=</span><span style="color: #e6db74">&quot;//cdn.leafletjs.com/leaflet-0.7.3/leaflet.css&quot;</span> <span style="color: #f92672">/&gt;</span>
-    <span style="color: #f92672">&lt;link</span> <span style="color: #a6e22e">rel=</span><span style="color: #e6db74">&quot;stylesheet&quot;</span> <span style="color: #a6e22e">href=</span><span style="color: #e6db74">&quot;//leaflet.github.io/Leaflet.draw/leaflet.draw.js&quot;</span> <span style="color: #f92672">/&gt;</span>
-  <span style="color: #f92672">&lt;/head&gt;</span>
-</pre>
-        </div>
-      </section>
+      #title2
+        margin-left: 36%
 
-      <section>
-        <h2>leaflet.draw</h2>
-        <h3>Add JavaScript link</h3>
-        <!-- HTML generated using hilite.me -->
-        <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">  <span style="color: #f92672">&lt;body&gt;</span>
-    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">id=</span><span style="color: #e6db74">&quot;map&quot;</span><span style="color: #f92672">&gt;&lt;/div&gt;</span>
-    <span style="color: #f92672">&lt;script</span> <span style="color: #a6e22e">src=</span><span style="color: #e6db74">&quot;//cdn.leafletjs.com/leaflet-0.7.3/leaflet.js&quot;</span><span style="color: #f92672">&gt;&lt;/script&gt;</span>
-    <span style="color: #f92672">&lt;script</span> <span style="color: #a6e22e">src=</span><span style="color: #e6db74">&quot;//cdnjs.cloudflare.com/ajax/libs/reqwest/1.1.5/reqwest.min.js&quot;</span><span style="color: #f92672">&gt;&lt;/script&gt;</span>
-    <span style="color: #f92672">&lt;script</span> <span style="color: #a6e22e">src=</span><span style="color: #e6db74">&quot;//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js&quot;</span><span style="color: #f92672">&gt;&lt;/script&gt;</span>
-    <span style="color: #f92672">&lt;script</span> <span style="color: #a6e22e">src=</span><span style="color: #e6db74">&quot;//leaflet.github.io/Leaflet.draw/leaflet.draw.js&quot;</span><span style="color: #f92672">&gt;&lt;/script&gt;</span>
-    <span style="color: #f92672">&lt;script&gt;</span>
-       <span style="color: #f8f8f2">...</span>
-    <span style="color: #f92672">&lt;/script&gt;</span>
-  <span style="color: #f92672">&lt;/body&gt;</span>
-</pre>
-        </div>
-      </section>
+      .project
+        font-weight: bold
 
-      <section>
-        <h2>leaflet.draw</h2>
-        <h3>Sample Code </h3>
-        <!-- HTML generated using hilite.me -->
-        <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;font-size:12pt;"><pre style="margin: 0; line-height: 125%"><span style="color: #66d9ef">var</span> <span style="color: #a6e22e">drawnItems</span> <span style="color: #f92672">=</span> <span style="color: #66d9ef">new</span> <span style="color: #a6e22e">L</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">FeatureGroup</span><span style="color: #f8f8f2">();</span>
-<span style="color: #a6e22e">map</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">addLayer</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">drawnItems</span><span style="color: #f8f8f2">);</span>
 
-<span style="color: #66d9ef">var</span> <span style="color: #a6e22e">drawControl</span> <span style="color: #f92672">=</span> <span style="color: #66d9ef">new</span> <span style="color: #a6e22e">L</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">Control</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">Draw</span><span style="color: #f8f8f2">({</span>
-  <span style="color: #a6e22e">draw</span><span style="color: #f92672">:</span> <span style="color: #f8f8f2">{</span>
-    <span style="color: #a6e22e">position</span><span style="color: #f92672">:</span> <span style="color: #e6db74">&#39;topleft&#39;</span><span style="color: #f8f8f2">,</span>
-    <span style="color: #a6e22e">polygon</span><span style="color: #f92672">:</span> <span style="color: #f8f8f2">{</span>
-      <span style="color: #a6e22e">title</span><span style="color: #f92672">:</span> <span style="color: #e6db74">&#39;Draw a sexy polygon!&#39;</span><span style="color: #f8f8f2">,</span>
-      <span style="color: #a6e22e">allowIntersection</span><span style="color: #f92672">:</span> <span style="color: #66d9ef">false</span><span style="color: #f8f8f2">,</span>
-      <span style="color: #a6e22e">drawError</span><span style="color: #f92672">:</span> <span style="color: #f8f8f2">{</span>
-        <span style="color: #a6e22e">color</span><span style="color: #f92672">:</span> <span style="color: #e6db74">&#39;#b00b00&#39;</span><span style="color: #f8f8f2">,</span>
-        <span style="color: #a6e22e">timeout</span><span style="color: #f92672">:</span> <span style="color: #ae81ff">1000</span>
-      <span style="color: #f8f8f2">},</span>
-      <span style="color: #a6e22e">shapeOptions</span><span style="color: #f92672">:</span> <span style="color: #f8f8f2">{</span>
-        <span style="color: #a6e22e">color</span><span style="color: #f92672">:</span> <span style="color: #e6db74">&#39;#bada55&#39;</span>
-      <span style="color: #f8f8f2">},</span>
-      <span style="color: #a6e22e">showArea</span><span style="color: #f92672">:</span> <span style="color: #66d9ef">true</span>
-    <span style="color: #f8f8f2">},</span>
-    <span style="color: #a6e22e">polyline</span><span style="color: #f92672">:</span> <span style="color: #f8f8f2">{</span>
-      <span style="color: #a6e22e">metric</span><span style="color: #f92672">:</span> <span style="color: #66d9ef">false</span>
-    <span style="color: #f8f8f2">},</span>
-    <span style="color: #a6e22e">circle</span><span style="color: #f92672">:</span> <span style="color: #f8f8f2">{</span>
-      <span style="color: #a6e22e">shapeOptions</span><span style="color: #f92672">:</span> <span style="color: #f8f8f2">{</span>
+  %body
+    .root
+      - if data.is_root
+        %img.center{src: 'https://fulcrum-reports.s3.amazonaws.com/kennel_club/logo.jpg'}
+        %h2#title ASSURED BREEDER ASSESSMENT
+        %h1.field-section.metadata= data.record.title(data.record.form)
+        .field-clear
+        - if data.record.project
+          .field
+            .field-label Project
+            .field-value.project= data.record.project.name
+            .field-clear
+        - if created = data.record.client_created_at || data.record.created_at
+          .field
+            .field-label Created
+            .field-value #{created.in_time_zone((data.record.updated_by || data.record.created_by).time_zone).strftime('%F %T %Z')} by #{data.record.created_by.try(:display_name)}
+            .field-clear
+        - if updated = data.record.client_updated_at || data.record.updated_at
+          .field
+            .field-label Updated
+            .field-value #{updated.in_time_zone((data.record.updated_by || data.record.created_by).time_zone).strftime('%F %T %Z')} by #{(data.record.updated_by || data.record.created_by).try(:display_name)}
+            .field-clear
+        .field
+          .field-label Location
+          .field-value #{data.record.latitude}, #{data.record.longitude}
+          .field-clear
+        - if data.form.status_field['enabled']
+          .field
+            .field-label= data.form.status_field['label']
+            - if value = value_for_status_field
+              .field-value
+                .status-color{style: "background-color: #{value['color']}"}
+                .status-value= value['label']
+            .field-clear
+
+      - else
+        .field-section= label_for_repeatable_item(data.element, data.value)
+        .field-clear
+
+
+      - render_elements(data.elements, data.form_values) do |element, values|
+        - if element.type == 'Section'
+          %p.break-line
+          %h1.field-section= element.label
+          .field-clear
+        - elsif element.type == 'Repeatable'
+          %h1.field-section= label_for_repeatable_item(element, values)
+          .field-clear
+        - elsif element.type == 'PhotoField'
+          - if (photos = (values[element.key] || [])).any?
+            .field
+              %h2.field-label= element.label
+              .field-value
+                - photos.each do |photo|
+                  %img.photo{src: Photo.where(access_key: photo['photo_id']).first.file.large.to_s}
+                  - if photo['caption'].present?
+                    %p= photo['caption']
+              .field-clear
+        - elsif element.type == 'SignatureField'
+          - if signature = values[element.key]
+            .field
+              %h2.field-label= element.label
+              .field-value
+                - signature_record = Signature.where(access_key: signature['signature_id']).first
+                %img.signature{src: signature_record.file.large.to_s}
+                - if signature['timestamp'].present?
+                  %p Signed #{SignatureUtils.format_timestamp(signature, signature_record)}
+              .field-clear
+        - elsif %w(ChoiceField ClassificationField DateTimeField TextField AddressField YesNoField TimeField BarcodeField CalculatedField).include?(element.type)
+          - if value = value_for_element(element, values)
+            .field
+              %h2.field-label= element.label
+              .field-value= value
+              .field-clear
+        - elsif %w(VideoField AudioField).include?(element.type)
+        - elsif element.type == 'Label'
+          - if %w(9e95 9851 12b7 c50d dd2f 4344 aac8 9fcb 8fa4 2085 a5fc).include?(element.key)
+            .field
+              .field-label-full= element.label
+              .field-clear
+        - else
+          .field
+            %h2.field-label= element.label
+            .field-value= values[element.key] || 'N/A'
+            .field-clear
+            
+      - improvements = element_by_data_name('assured_breeder_scheme_improvement_notice')
+      %p.break-line
+      %img.center{src: 'https://fulcrum-reports.s3.amazonaws.com/kennel_club/logo.jpg'}
+      %h2#title2 IMPROVEMENT NOTICE
+      - visible_improvements = improvements.elements.select do |element|
+        - if element.visible_conditions.any?
+          - visible_condition = element.visible_conditions.first
+          - element_for_value = element_by_key(visible_condition.field_key)
+          - actual_value = value_for(element_for_value.data_name, data.form_values)
+          - expected_value = visible_condition.value
+          - expected_value == actual_value
+      - visible_improvements.each_with_index do |element, i|
+        .field
+          <p class="field-label-full">#{i+1})&nbsp;<span>#{element.label}</span></p>
+          .field-clearspan> <span style="color: #e6db74">&#39;Draw a sexy polygon!&#39;</span><span style="color: #f8f8f2">,</span>
+          <span style="color: #a6e22e">allowIntersection</span><span style="color: #f92672">:</span> <span style="color: #66d9ef">false</span><span style="color: #f8f8f2">,</span>
+          <span style="color: #a6e22e">drawError</span><span style="color: #f92672">:</span> <span style="color: #f8f8f2">{</span>
+            <span style="color: #a6e22e">color</span><span style="color: #f92672">:</span> <span style="color: #e6db74">&#39;#b00b00&#39;</span><span style="color: #f8f8f2">,</span>
+            <span style="color: #a6e22e">timeout</span><span style="color: #f92672">:</span> <span style="color: #ae81ff">1000</span>
+          <span style="color: #f8f8f2">},</span>
+          <span style="color: #a6e22e">shapeOptions</span><span style="color: #f92672">:</span> <span style="color: #f8f8f2">{</span>
+            <span style="color: #a6e22e">color</span><span style="color: #f92672">:</span> <span style="color: #e6db74">&#39;#bada55&#39;</span>
+          <span style="color: #f8f8f2">},</span>
+          <span style="color: #a6e22e">showArea</span><span style="color: #f92672">:</span> <span style="color: #66d9ef">true</span>
+        <span style="color: #f8f8f2">},</span>
+        <span style="color: #a6e22e">polyline</span><span style="color: #f92672">:</span> <span style="color: #f8f8f2">{</span>
+        <span style="color: #a6e22e">metric</span><span style="color: #f92672">:</span> <span style="color: #66d9ef">false</span>
+        <span style="color: #f8f8f2">},</span>
+        <span style="color: #a6e22e">circle</span><span style="color: #f92672">:</span>
+        <span style="color: #f8f8f2">{</span>
+        <span style="color: #a6e22e">shapeOptions</span><span style="color: #f92672">:</span> <span style="color: #f8f8f2">{</span>
         <span style="color: #a6e22e">color</span><span style="color: #f92672">:</span> <span style="color: #e6db74">&#39;#662d91&#39;</span>
-      <span style="color: #f8f8f2">}</span>
-    <span style="color: #f8f8f2">}</span>
-  <span style="color: #f8f8f2">},</span>
-  <span style="color: #a6e22e">edit</span><span style="color: #f92672">:</span> <span style="color: #f8f8f2">{</span>
-    <span style="color: #a6e22e">featureGroup</span><span style="color: #f92672">:</span> <span style="color: #a6e22e">drawnItems</span>
-  <span style="color: #f8f8f2">}</span>
-<span style="color: #f8f8f2">});</span>
-<span style="color: #a6e22e">map</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">addControl</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">drawControl</span><span style="color: #f8f8f2">);</span>
-
-<span style="color: #a6e22e">map</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">on</span><span style="color: #f8f8f2">(</span><span style="color: #e6db74">&#39;draw:created&#39;</span><span style="color: #f8f8f2">,</span> <span style="color: #66d9ef">function</span> <span style="color: #f8f8f2">(</span><span style="color: #a6e22e">e</span><span style="color: #f8f8f2">)</span> <span style="color: #f8f8f2">{</span>
-  <span style="color: #66d9ef">var</span> <span style="color: #a6e22e">type</span> <span style="color: #f92672">=</span> <span style="color: #a6e22e">e</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">layerType</span><span style="color: #f8f8f2">,</span>
-    <span style="color: #a6e22e">layer</span> <span style="color: #f92672">=</span> <span style="color: #a6e22e">e</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">layer</span><span style="color: #f8f8f2">;</span>
-
-  <span style="color: #66d9ef">if</span> <span style="color: #f8f8f2">(</span><span style="color: #a6e22e">type</span> <span style="color: #f92672">===</span> <span style="color: #e6db74">&#39;marker&#39;</span><span style="color: #f8f8f2">)</span> <span style="color: #f8f8f2">{</span>
-    <span style="color: #a6e22e">layer</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">bindPopup</span><span style="color: #f8f8f2">(</span><span style="color: #e6db74">&#39;A popup!&#39;</span><span style="color: #f8f8f2">);</span>
-  <span style="color: #f8f8f2">}</span>
-
-  <span style="color: #a6e22e">drawnItems</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">addLayer</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">layer</span><span style="color: #f8f8f2">);</span>
-<span style="color: #f8f8f2">});</span>
-</pre>
-      </section>
+        <span style="color: #f8f8f2">}</span>
+        <span style="color: #f8f8f2">}</span>
+        <span style="color: #f8f8f2">},</span>
+        <span style="color: #a6e22e">edit</span><span style="color: #f92672">:</span> <span style="color: #f8f8f2">{</span>
+        <span style="color: #a6e22e">featureGroup</span><span style="color: #f92672">:</span> <span style="color: #a6e22e">drawnItems</span>
+        <span style="color: #f8f8f2">}</span>
+        <span style="color: #f8f8f2">});</span>
+        <span style="color: #a6e22e">map</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">addControl</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">drawControl</span><span style="color: #f8f8f2">);</span>
+        <span style="color: #a6e22e">map</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">on</span><span style="color: #f8f8f2">(</span><span style="color: #e6db74">&#39;draw:created&#39;</span><span style="color: #f8f8f2">,</span> <span style="color: #66d9ef">function</span> <span style="color: #f8f8f2">(</span><span style="color: #a6e22e">e</span><span style="color: #f8f8f2">)</span> <span style="color: #f8f8f2">{  </span>
+        <span style="color: #66d9ef">var</span> <span style="color: #a6e22e">type</span> <span style="color: #f92672">=</span> <span style="color: #a6e22e">e</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">layerType</span><span style="color: #f8f8f2">,</span>
+        <span style="color: #a6e22e">layer</span> <span style="color: #f92672">=</span> <span style="color: #a6e22e">e</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">layer</span><span style="color: #f8f8f2">;</span>
+        <span style="color: #66d9ef">if</span> <span style="color: #f8f8f2">(</span><span style="color: #a6e22e">type</span> <span style="color: #f92672">===</span> <span style="color: #e6db74">&#39;marker&#39;</span>  <span style="color: #f8f8f2">)</span> <span style="color: #f8f8f2">{</span>
+        <span style="color: #a6e22e">layer</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">bindPopup</span><span style="color: #f8f8f2">(</span><span style="color: #e6db74">&#39;A popup!&#39;</span><span style="color: #f8f8f2">);</span>
+        <span style="color: #f8f8f2">}</span>
+        <span style="color: #a6e22e">drawnItems</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">addLayer</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">layer</span><span style="color: #f8f8f2">);</span>
+        <span style="color: #f8f8f2">});</span>
+        </pre>
+          </section>
         </section>
         <section>
           <section>
@@ -1004,7 +1224,6 @@
         </section>
       </div>
     </div>
-
     <script src="js/head.min.js"></script>
     <script src="js/reveal.js"></script>
     <script>
